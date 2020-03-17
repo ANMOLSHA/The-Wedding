@@ -1,0 +1,249 @@
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 20px;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        
+}
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+      padding: 4rem;
+        background: #1A4668;
+    }
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color: #F0AAB1;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.st {
+  font-size: 24px;
+}
+
+/* Change Footer Social Icon Color */
+a {
+  color:blue;
+}
+a:hover {
+  color: #E994A2;
+}
+
+.i{
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+}
+.app-link {
+    cursor: pointer;
+}
+.border-radius {
+    border-radius: 5px;
+}
+.gallery-box-figure .gallery-box-thumb{
+  border-right: 3px solid #fff;
+    display: block;
+    position: relative;
+    text-align: center;
+    /*overflow: hidden;*/
+    width: 81px;
+    max-height: 65px;
+    box-sizing: border-box;
+}
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.gallery-box-figure figcaption {
+    border-top: 3px solid #fff;
+    justify-content: flex-start;
+}
+.gallery-box-item-counter {
+    font-size: 25px;
+    line-height: 70px;
+    position: absolute;
+    top: 0;
+    bottom: -6px;
+    left: 0;
+    right: -17px;
+    color: #fff;
+    /*padding: 10px 0;*/
+    background-color:rgba(0,0,0,.5);
+}
+.img-zoom img{
+      transition: transform .3s;
+      backface-visibility: visible;
+      width: 255px;
+      height: 255px;
+      max-width: 1280px;
+
+}
+.v {
+    font-size: 40px;
+    line-height: 365px;
+    position: absolute;
+    top: 4px;
+    bottom: 15px;
+    left: 3px;
+    right: 3px;
+    color: white;
+    text-align: center;
+    /* padding: 10px 0; */
+    background-color: rgba(0,0,0,.2);
+}
+ .o:hover{opacity: 0.7;}
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+ }
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+ }
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: black;
+   text-align: center;
+  display: inline-block;
+}
+.loginmodal-container a:hover{
+  color: blue;
+} 
+
+
+.login-help{
+  font-size: 12px;
+}
+
+.login-btn {
+  text-align:center;
+  margin-top: 50px;
+}
+
+.button {
+  line-height: 55px;
+  padding: 0 30px;
+  background: #004a80;
+  color: #fff;
+  display: inline-block;
+  font-family: roboto;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.button:hover,
+.button:visited {
+  background: #006cba;
+  color: #fff;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);

@@ -1,0 +1,39 @@
+
+.carousel-item img{
+	height: 100%;
+	width: 100%
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+	height: 40px;
+	width: 40px;
+}
+.banner{
+	color: white;
+}
+a{
+	font-family: cursive;
+	padding: 18px;
+    margin-left: 22px;
+}
+.nav-link b{
+	color: #fff;
+}
+.s{
+	padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.l{
+	font-weight: 600;
+}
+p{
+	font-size: 15px;
+    font-family: auto;
+    text-transform: capitalize;
+    font-weight: 200;
+
+}
+.carousel-item img{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
