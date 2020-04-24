@@ -1,0 +1,259 @@
+
+  
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=devices-width,initial-scale=1.0">
+  <meta http-equip="X-UA-Compaitable" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="ptv.css">
+<style>
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: black;
+}
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.flux {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+</style>
+</head>
+<body>   
+<div class="Top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #192332 !important; border-top: 10px solid #54c4c1;">
+  <a class="navbar-brand" href="#"><img src="travel-logo-png-1.png" style="height: 100px; margin-left: -10px;"><b style="color: #fff; font-family: cursive; font-size: unset;">GWALIOR TOURISM</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="GwlTourism.html"><b style="border: 2px solid dodgerblue; padding: 7px;">Home</b><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="ptv.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+          Places To Visit</b>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="ptv.html">Gwalior Fort</a>
+          <a class="dropdown-item" href="ptv.html">Jai-Vilas palace</a>
+          <a class="dropdown-item" href="ptv.html">Gujari Mahal [State Archaeological Museum]</a>
+          <a class="dropdown-item" href="ptv.html">Man Mandir palace</a>
+          <a class="dropdown-item" href="ptv.html">Tomb of Tansen</a>
+          <a class="dropdown-item" href="ptv.html">Teli Ka Mandir</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="ptv.html">And Many More....</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hotel.html"><b>Hotels</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="food.html"><b>Restaurant</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><b>How To Reach</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html"><b>Contact Us</b></a>
+      </li>
+    </ul>
+  </div> 
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<h2 class="flux" style="text-align: center;     margin-top: 53px;">Resturants in Gwalior</h2>
+<br>
+  <div class="container col-sm-9">
+
+    <div class="row">
+      <div class="col-sm-4 p-1">
+        <div class="card col-sm-12">
+    <img class="card-img-top" src="unnamed.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h4 class="card-title"><b><u>Silver Saloon</u></b></h4>
+        <p class="card-text" style="color:grey;"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"> Rating: 3.8 - ‎125 votes - ‎Price range: ₹1,500 for two people (approx.)<br>
+          <br>
+<img src="8.png" height="18px;"> Usha Kiran Palace, Jayendraganj, Gwalior, Madhya Pradesh 474009.<br>
+<img src="9.png" height="18px;">  +917512444000<br>
+<img src="10.png" height="18px;">  7:00 AM to 11:00 PM<br>
+<img src="7.png" height="18px;"> <b>View Menu</b><hr>
+      </p>
+      </div>
+    </div>
+  <div class="card col-sm-12 mt-2">
+    <img class="card-img-top" src="unnamed.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h4 class="card-title"><b><u>Silver Saloon</u></b></h4>
+        <p class="card-text" style="color:grey;"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"> Rating: 3.8 - ‎125 votes - ‎Price range: ₹1,500 for two people (approx.)<br>
+          <br>
+<img src="8.png" height="18px;"> Usha Kiran Palace, Jayendraganj, Gwalior, Madhya Pradesh 474009.<br>
+<img src="9.png" height="18px;">  +917512444000<br>
+<img src="10.png" height="18px;">  7:00 AM to 11:00 PM<br>
+<img src="7.png" height="18px;"> <b>View Menu</b><hr>
+      </p>
+      </div></div>
+  <div class="card col-sm-12 mt-2">
+    <img class="card-img-top" src="unnamed.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h4 class="card-title"><b><u>Silver Saloon</u></b></h4>
+        <p class="card-text" style="color:grey;"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"> Rating: 3.8 - ‎125 votes - ‎Price range: ₹1,500 for two people (approx.)<br>
+          <br>
+<img src="8.png" height="18px;"> Usha Kiran Palace, Jayendraganj, Gwalior, Madhya Pradesh 474009.<br>
+<img src="9.png" height="18px;">  +917512444000<br>
+<img src="10.png" height="18px;">  7:00 AM to 11:00 PM<br>
+<img src="7.png" height="18px;"> <b>View Menu</b><hr>
+      </p>
+      </div>
+    </div>
+  <div class="card col-sm-12 mt-2">
+    <img class="card-img-top" src="unnamed.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h4 class="card-title"><b><u>Silver Saloon</u></b></h4>
+        <p class="card-text" style="color:grey;"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"><img src="4.png" height="16px"> Rating: 3.8 - ‎125 votes - ‎Price range: ₹1,500 for two people (approx.)<br>
+          <br>
+<img src="8.png" height="18px;"> Usha Kiran Palace, Jayendraganj, Gwalior, Madhya Pradesh 474009.<br>
+<img src="9.png" height="18px;">  +917512444000<br>
+<img src="10.png" height="18px;">  7:00 AM to 11:00 PM<br>
+<img src="7.png" height="18px;"> <b>View Menu</b><hr>
+      </p>
+      </div>
+  </div>
+
+
+        
+      
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3" style="background-color: #21d192">
+
+  <!-- Footer Elements -->
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+         <center>
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fa fa-whatsapp fa-lg white-text fa-2x"> </i>
+          </a>
+        </center>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color: darkslategray;">
+    <a style="color: white;">© Tourism @ 2020 :</a>
+    <a href="GwlTourism.html">GwlTourism.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
